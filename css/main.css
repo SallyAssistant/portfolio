@@ -1,0 +1,277 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* core */
+body{
+  font-family: sans-serif;
+
+}
+
+.container{
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.to-uppercase{
+  text-transform: uppercase;
+}
+
+.clearfix{
+  clear: both;
+}
+/* core */
+
+.main-brand{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-brand img{
+  width: 64px;
+
+}
+.main-navigation {
+  display: inline-block;
+  vertical-align: middle;
+
+}
+.main-navigation-item{
+  display: inline-block;
+  padding: 10px;
+}
+.main-navigation-item a{
+  color: #05354d;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.main-navigation-item a:hover{
+  color: #efb6df;
+
+}
+
+.main-navigation-item.active a{
+  color: #efb6df;
+}
+
+/* main section */
+.main-section{
+  padding: 100px 30px;
+}
+.main-section > div{
+  width: 50%;
+  float: left;
+}
+.main-section-image{
+  text-align: right;
+}
+
+.main-section-hi{
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  color: #797979;
+}
+.main-section-ind{
+  margin-top: 20px;
+  font-size: 60px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #05364e;
+}
+
+.main-section-ps{
+  color: #05364e;
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.main-section-social-networks a{
+  color: #8fa1aa;
+  font-size: 20px;
+  display: inline-block;
+  margin-right: 16px;
+  cursor: pointer;
+}
+.main-section-social-networks a:hover i{
+  color: blue;
+}
+.main-action{
+  margin-top: 30px;
+
+}
+/* statistics section */
+
+.statistics-item{
+  display: inline-block;
+  background-color: #f8faff;
+  text-align: center;
+  padding: 5px 10px;
+  margin-right: 20px;
+  width: 150px;
+}
+.statistics-number{
+font-size: 25px;
+margin-bottom:5px ;
+color: blue;
+}
+
+.statistics-title{
+  font-size: 16x;
+  color: #797979;
+  font-weight: 300;
+}
+
+/* about me */
+.about-me{
+  padding: 100px 0;
+}
+
+.about-me > div{
+  width: 50%;
+  float: left;
+}
+
+
+.about-me img{
+  width: 70%;
+}
+/* services section */
+.section-subtitle{
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #797979;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+
+.section-title{
+  margin-top: 5px;
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #05364d;
+  margin: 20px 20px;
+
+}
+
+.button{
+  border: none;
+  background-color: blue;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 20px 40px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.about-me-action{
+  margin-top: 40px;
+
+}
+
+.about-me-description{
+font-size: 14px;
+font-weight: 300;
+color: #797979;
+line-height: 27px;
+}
+
+/* services section */
+.services{
+  padding-top: 100px;
+}
+
+.service-card{
+  display: inline-block;
+  width: 30%;
+  padding: 60px 30px;
+  background-color: #f8faff;
+  margin-right: 3%;
+  text-align: center;
+}
+
+.service-card-icon{
+  width: 30%;
+}
+
+.service-card-title{
+  color: #05364d;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.service-card-description{
+  font-size: 14px;
+  line-height: 27px;
+  font-weight: 300;
+  color: #797979;
+}
+.service-card-link{
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #05364d;
+  text-decoration: none;
+}
+
+.service-card:hover{
+  background-color:rgb(88, 0, 164);
+}
+.service-card:hover .service-card-title
+{
+color: white;
+}
+.service-card:hover .service-card-description{
+ color: white;
+}
+.service-card:hover .service-card-link{
+  color: white;
+}
+/* client section */
+
+.clients{
+  padding-top: 100px;
+}
+.client-item-info{
+  padding-top: 50px;
+  padding-left: 50px;
+
+}
+
+.client-item > div{
+  width: 50%;
+  float: left;
+}
+.client-item-image img{
+  width: 70%;
+}
+.client-item-name{
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+.client-item-ps{
+  font-size: 13px;
+  color: #5b6d75;
+  font-weight: 300;
+}
+
+.client-item-review{
+  font-size: 14px;
+  line-height: 27px;
+  font-weight: 300;
+  color: #5b6d75;
+}
+
+.client-item-rate{
+  color: gold;
+}
